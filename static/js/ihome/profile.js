@@ -44,11 +44,17 @@ $(document).ready(function(){
             success: function(data){
                 if ("0" == data.errno) {
                     // $('.image_uploading').fadeOut('fast');
-                    $("#user-avatar").attr("src", data.url);
-                    /my.html
+                    $('save_success').fadeIn('fast');
+                    location.href = "/my.html";
+                }
+                else {
+                    $('.error-msg').show();
                 }
             }
         };
         $(this).ajaxSubmit(options);
+        $('#user-name').focus(function(){
+            $('.error-msg').hide();
+        });
     });   
 })

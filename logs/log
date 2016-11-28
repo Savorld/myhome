@@ -1012,3 +1012,916 @@
 [I 161126 09:19:28 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 233.23ms
 [I 161126 09:47:41 autoreload:204] /home/python/Desktop/Tornado_Project_3/urls.py modified; restarting server
 [I 161126 11:04:39 autoreload:204] /home/python/Desktop/Tornado_Project_3/handlers/Profile.py modified; restarting server
+[I 161126 11:47:30 web:1946] 304 GET /profile.html (127.0.0.1) 27.68ms
+[I 161126 11:47:31 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.05ms
+[I 161126 11:47:31 web:1946] 200 GET /favicon.ico (127.0.0.1) 1.18ms
+[I 161126 11:47:46 web:1946] 200 GET /profile.html?avatar=landlord01.jpg (127.0.0.1) 3.61ms
+[I 161126 11:48:01 web:1946] 200 GET /profile.html?avatar=home02.jpg (127.0.0.1) 1.37ms
+[I 161126 11:48:40 web:1946] 304 GET /profile.html?avatar=home02.jpg (127.0.0.1) 2.55ms
+[I 161126 11:48:40 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 1.83ms
+[I 161126 11:48:41 web:1946] 200 GET /favicon.ico (127.0.0.1) 0.98ms
+[I 161126 11:49:05 web:1946] 304 GET /profile.html?avatar=landlord01.jpg (127.0.0.1) 0.96ms
+[I 161126 11:51:34 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.03ms
+[D 161126 11:51:58 retry:164] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None)
+[I 161126 11:51:58 connectionpool:213] Starting new HTTP connection (1): up.qiniu.com
+[D 161126 11:51:58 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 11:51:59 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 1354.00ms
+[I 161126 11:52:06 web:1946] 200 POST /api/profile/username (127.0.0.1) 1.91ms
+[I 161126 11:52:54 autoreload:204] /home/python/Desktop/myhome/handlers/Profile.py modified; restarting server
+[I 161126 11:52:59 web:1946] 200 POST /api/profile/username (127.0.0.1) 2.33ms
+[I 161126 11:53:43 autoreload:204] /home/python/Desktop/myhome/handlers/Profile.py modified; restarting server
+[I 161126 11:54:10 web:1946] 200 POST /api/profile/username (127.0.0.1) 3.19ms
+[I 161126 11:57:37 autoreload:204] /home/python/Desktop/myhome/handlers/Profile.py modified; restarting server
+[E 161126 11:57:48 Profile:51] (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updat ih_user_profile set up_name='wyc' where up_user_id=10000' at line 1")
+[I 161126 11:57:48 web:1946] 200 POST /api/profile/username (127.0.0.1) 48.42ms
+[E 161126 11:59:45 Profile:51] (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updat ih_user_profile set up_name='wyc' where up_user_id=10000' at line 1")
+[I 161126 11:59:45 web:1946] 200 POST /api/profile/username (127.0.0.1) 8.43ms
+[W 161126 11:59:58 web:1946] 405 GET /api/profile/username (127.0.0.1) 1.33ms
+[I 161126 12:03:43 autoreload:204] /home/python/Desktop/myhome/handlers/Profile.py modified; restarting server
+[E 161126 12:03:57 Profile:53] (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updat ih_user_profile set up_name='wyc' where up_user_id=10000' at line 1")
+[I 161126 12:03:57 web:1946] 200 POST /api/profile/username (127.0.0.1) 6.40ms
+[I 161126 12:04:18 autoreload:204] /home/python/Desktop/myhome/handlers/Profile.py modified; restarting server
+[E 161126 12:04:25 Profile:53] (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updat ih_user_profile set up_name='wyc' where up_user_id=10000' at line 1")
+[I 161126 12:04:25 web:1946] 200 POST /api/profile/username (127.0.0.1) 3.81ms
+[E 161126 13:28:23 Profile:53] (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updat ih_user_profile set up_name='wyc' where up_user_id=10000' at line 1")
+[I 161126 13:28:23 web:1946] 200 POST /api/profile/username (127.0.0.1) 4.32ms
+[I 161126 13:28:34 web:1946] 304 GET /profile.html (127.0.0.1) 6.89ms
+[I 161126 13:28:34 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.28ms
+[I 161126 13:28:34 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.87ms
+[I 161126 13:28:34 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 4.33ms
+[I 161126 13:28:34 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 2.62ms
+[I 161126 13:28:34 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.35ms
+[I 161126 13:28:34 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.39ms
+[I 161126 13:28:34 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.36ms
+[I 161126 13:28:34 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.66ms
+[I 161126 13:28:34 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.92ms
+[I 161126 13:28:34 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.22ms
+[I 161126 13:28:34 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.71ms
+[I 161126 13:28:34 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.41ms
+[I 161126 13:28:41 web:1946] 200 GET /profile.html?a (127.0.0.1) 1.51ms
+[I 161126 13:28:41 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 0.77ms
+[I 161126 13:30:10 web:1946] 304 GET /profile.html?a (127.0.0.1) 1.05ms
+[I 161126 13:30:10 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.70ms
+[I 161126 13:30:10 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.89ms
+[I 161126 13:30:10 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.71ms
+[I 161126 13:30:10 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.31ms
+[I 161126 13:30:10 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.94ms
+[I 161126 13:30:10 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.72ms
+[I 161126 13:30:10 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.73ms
+[I 161126 13:30:10 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 3.80ms
+[I 161126 13:30:10 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.03ms
+[I 161126 13:30:10 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.81ms
+[I 161126 13:30:10 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.95ms
+[I 161126 13:30:10 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 0.69ms
+[I 161126 13:31:02 web:1946] 304 GET /profile.html?a (127.0.0.1) 1.17ms
+[I 161126 13:31:02 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.65ms
+[I 161126 13:31:02 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.37ms
+[I 161126 13:31:02 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.25ms
+[I 161126 13:31:02 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.29ms
+[I 161126 13:31:02 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.04ms
+[I 161126 13:31:02 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 3.40ms
+[I 161126 13:31:02 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.40ms
+[I 161126 13:31:02 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.00ms
+[I 161126 13:31:02 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.49ms
+[I 161126 13:31:02 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.81ms
+[I 161126 13:31:02 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.64ms
+[I 161126 13:31:02 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.43ms
+[D 161126 13:31:18 retry:164] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None)
+[I 161126 13:31:18 connectionpool:213] Starting new HTTP connection (1): up.qiniu.com
+[D 161126 13:31:40 retry:283] Incremented Retry for (url='/'): Retry(total=2, connect=None, read=None, redirect=None)
+[W 161126 13:31:40 connectionpool:647] Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ProtocolError('Connection aborted.', error(104, 'Connection reset by peer'))': /
+[I 161126 13:31:40 connectionpool:213] Starting new HTTP connection (2): up.qiniu.com
+[D 161126 13:31:47 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 13:31:47 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 28915.46ms
+[E 161126 13:31:57 Profile:53] (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updat ih_user_profile set up_name='wyc' where up_user_id=10000' at line 1")
+[I 161126 13:31:57 web:1946] 200 POST /api/profile/username (127.0.0.1) 1.92ms
+[I 161126 13:33:24 web:1946] 304 GET /profile.html?a (127.0.0.1) 1.36ms
+[I 161126 13:33:24 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.03ms
+[I 161126 13:33:24 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.83ms
+[I 161126 13:33:24 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.71ms
+[I 161126 13:33:24 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.81ms
+[I 161126 13:33:24 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.17ms
+[I 161126 13:33:24 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 3.29ms
+[I 161126 13:33:24 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.96ms
+[I 161126 13:33:24 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.39ms
+[I 161126 13:33:24 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.87ms
+[I 161126 13:33:24 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.86ms
+[I 161126 13:33:24 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 0.81ms
+[I 161126 13:33:24 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.11ms
+[E 161126 13:33:27 Profile:53] (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updat ih_user_profile set up_name='' where up_user_id=10000' at line 1")
+[I 161126 13:33:27 web:1946] 200 POST /api/profile/username (127.0.0.1) 2.26ms
+[I 161126 13:34:07 web:1946] 304 GET /profile.html?a (127.0.0.1) 1.29ms
+[I 161126 13:34:07 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.08ms
+[I 161126 13:34:07 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.59ms
+[I 161126 13:34:07 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.97ms
+[I 161126 13:34:07 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.92ms
+[I 161126 13:34:07 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.89ms
+[I 161126 13:34:07 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.97ms
+[I 161126 13:34:07 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.38ms
+[I 161126 13:34:07 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.72ms
+[I 161126 13:34:07 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.74ms
+[I 161126 13:34:07 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.81ms
+[I 161126 13:34:07 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.69ms
+[I 161126 13:34:07 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 0.66ms
+[E 161126 13:34:09 Profile:53] (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updat ih_user_profile set up_name='' where up_user_id=10000' at line 1")
+[I 161126 13:34:09 web:1946] 200 POST /api/profile/username (127.0.0.1) 3.03ms
+[I 161126 13:35:39 web:1946] 304 GET /profile.html?a (127.0.0.1) 1.21ms
+[I 161126 13:35:39 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.20ms
+[I 161126 13:35:39 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.98ms
+[I 161126 13:35:39 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.26ms
+[I 161126 13:35:39 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.77ms
+[I 161126 13:35:39 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.90ms
+[I 161126 13:35:39 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 29.31ms
+[I 161126 13:35:39 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 2.08ms
+[I 161126 13:35:39 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.80ms
+[I 161126 13:35:39 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.91ms
+[I 161126 13:35:39 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.75ms
+[I 161126 13:35:39 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.92ms
+[I 161126 13:35:39 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.37ms
+[E 161126 13:35:41 Profile:53] (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updat ih_user_profile set up_name='' where up_user_id=10000' at line 1")
+[I 161126 13:35:41 web:1946] 200 POST /api/profile/username (127.0.0.1) 2.14ms
+[I 161126 13:36:30 web:1946] 304 GET /profile.html?a (127.0.0.1) 1.58ms
+[I 161126 13:36:30 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.02ms
+[I 161126 13:36:30 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.89ms
+[I 161126 13:36:30 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.85ms
+[I 161126 13:36:30 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.87ms
+[I 161126 13:36:30 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.84ms
+[I 161126 13:36:30 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.81ms
+[I 161126 13:36:30 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.74ms
+[I 161126 13:36:30 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.77ms
+[I 161126 13:36:30 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.79ms
+[I 161126 13:36:30 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.82ms
+[I 161126 13:36:30 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.90ms
+[I 161126 13:36:30 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 0.86ms
+[E 161126 13:36:31 Profile:53] (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updat ih_user_profile set up_name='' where up_user_id=10000' at line 1")
+[I 161126 13:36:31 web:1946] 200 POST /api/profile/username (127.0.0.1) 3.11ms
+[I 161126 13:36:50 web:1946] 304 GET /profile.html?a (127.0.0.1) 1.74ms
+[I 161126 13:36:50 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.35ms
+[I 161126 13:36:50 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.74ms
+[I 161126 13:36:50 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.88ms
+[I 161126 13:36:50 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.92ms
+[I 161126 13:36:50 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.88ms
+[I 161126 13:36:50 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.87ms
+[I 161126 13:36:50 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.65ms
+[I 161126 13:36:50 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.90ms
+[I 161126 13:36:50 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 3.49ms
+[I 161126 13:36:50 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.84ms
+[I 161126 13:36:50 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.83ms
+[I 161126 13:36:50 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.87ms
+[E 161126 13:36:54 Profile:53] (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updat ih_user_profile set up_name='' where up_user_id=10000' at line 1")
+[I 161126 13:36:54 web:1946] 200 POST /api/profile/username (127.0.0.1) 2.91ms
+[E 161126 13:36:57 Profile:53] (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updat ih_user_profile set up_name='' where up_user_id=10000' at line 1")
+[I 161126 13:36:57 web:1946] 200 POST /api/profile/username (127.0.0.1) 14.85ms
+[E 161126 13:36:59 Profile:53] (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updat ih_user_profile set up_name='' where up_user_id=10000' at line 1")
+[I 161126 13:36:59 web:1946] 200 POST /api/profile/username (127.0.0.1) 3.87ms
+[E 161126 13:37:02 Profile:53] (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updat ih_user_profile set up_name='' where up_user_id=10000' at line 1")
+[I 161126 13:37:02 web:1946] 200 POST /api/profile/username (127.0.0.1) 2.98ms
+[I 161126 13:38:04 autoreload:204] /home/python/Desktop/myhome/handlers/Profile.py modified; restarting server
+[I 161126 13:38:06 autoreload:204] /home/python/Desktop/myhome/handlers/Profile.py modified; restarting server
+[I 161126 13:38:14 web:1946] 304 GET /profile.html?a (127.0.0.1) 7.88ms
+[I 161126 13:38:14 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.22ms
+[I 161126 13:38:14 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 2.45ms
+[I 161126 13:38:14 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.79ms
+[I 161126 13:38:14 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.38ms
+[I 161126 13:38:14 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.21ms
+[I 161126 13:38:14 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.86ms
+[I 161126 13:38:14 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.81ms
+[I 161126 13:38:14 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 2.38ms
+[I 161126 13:38:14 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.87ms
+[I 161126 13:38:14 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.22ms
+[I 161126 13:38:14 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.98ms
+[I 161126 13:38:14 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 5.00ms
+[I 161126 13:38:16 web:1946] 304 GET /profile.html?a (127.0.0.1) 1.22ms
+[I 161126 13:38:16 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.25ms
+[I 161126 13:38:16 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.73ms
+[I 161126 13:38:16 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.82ms
+[I 161126 13:38:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.21ms
+[I 161126 13:38:16 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.50ms
+[I 161126 13:38:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.35ms
+[I 161126 13:38:16 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.90ms
+[I 161126 13:38:16 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.79ms
+[I 161126 13:38:16 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.12ms
+[I 161126 13:38:16 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.65ms
+[I 161126 13:38:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.67ms
+[I 161126 13:38:16 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 0.80ms
+[I 161126 13:38:24 web:1946] 200 GET /profile.html?b (127.0.0.1) 1.18ms
+[D 161126 13:38:37 retry:164] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None)
+[I 161126 13:38:37 connectionpool:213] Starting new HTTP connection (1): up.qiniu.com
+[D 161126 13:38:37 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 13:38:37 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 784.91ms
+[I 161126 13:38:42 web:1946] 200 POST /api/profile/username (127.0.0.1) 523.27ms
+[I 161126 13:42:40 web:1946] 304 GET /my.html (127.0.0.1) 1.16ms
+[I 161126 13:42:40 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.54ms
+[I 161126 13:42:40 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.35ms
+[I 161126 13:42:40 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.30ms
+[I 161126 13:42:40 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 2.28ms
+[I 161126 13:42:40 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.96ms
+[I 161126 13:42:40 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 0.70ms
+[I 161126 13:42:40 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.22ms
+[I 161126 13:42:40 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.85ms
+[I 161126 13:42:40 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.82ms
+[I 161126 13:42:40 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.81ms
+[I 161126 13:42:40 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 0.67ms
+[I 161126 13:42:43 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 0.93ms
+[I 161126 13:43:01 connectionpool:248] Resetting dropped connection: up.qiniu.com
+[D 161126 13:43:01 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 13:43:01 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 163.34ms
+[I 161126 13:43:09 web:1946] 200 POST /api/profile/username (127.0.0.1) 10.26ms
+[I 161126 13:43:37 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 0.84ms
+[I 161126 13:45:45 web:1946] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.78ms
+[I 161126 13:45:56 connectionpool:248] Resetting dropped connection: up.qiniu.com
+[D 161126 13:46:01 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 13:46:01 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 5179.30ms
+[I 161126 13:46:08 web:1946] 200 POST /api/profile/username (127.0.0.1) 111.93ms
+[I 161126 15:28:38 web:1946] 304 GET /static/js/ihome/index.js (127.0.0.1) 14.59ms
+[I 161126 15:28:39 web:1946] 304 GET /api/check_login (127.0.0.1) 42.18ms
+[W 161126 15:28:40 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 4.29ms
+[I 161126 16:54:38 autoreload:204] /home/python/Desktop/myhome/urls.py modified; restarting server
+[I 161126 17:29:16 web:1946] 304 GET /my.html (127.0.0.1) 53.43ms
+[I 161126 17:29:17 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 70.93ms
+[I 161126 17:29:17 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.74ms
+[I 161126 17:29:17 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 0.76ms
+[I 161126 17:29:17 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 23.67ms
+[I 161126 17:29:17 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 14.93ms
+[I 161126 17:29:17 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.59ms
+[I 161126 17:29:17 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 3.11ms
+[I 161126 17:29:17 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.24ms
+[I 161126 17:29:17 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 4.17ms
+[I 161126 17:29:17 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 5.00ms
+[I 161126 17:29:17 web:1946] 200 GET /static/js/ihome/my.js (127.0.0.1) 0.98ms
+[E 161126 17:29:19 web:1524] Uncaught exception GET /api/profile (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/profile', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Host': '127.0.0.1:8000', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Cache-Control': 'max-age=0', 'Referer': 'http://127.0.0.1:8000/my.html', 'Cookie': 'csrftoken=mocuDfaXBgCa7OjYOmy05vhxn0E3FN8Q; _xsrf=2|628018de|c0ebab99a243f452a5c3fda7bf40507c|1480077117; session_id="2|1:0|10:1480122920|10:session_id|44:NjBhMzk3NzY1NGNjNDkzNWI5ZDQwYjJhOTJjNmZlMzA=|1716365eea9b0474422fe4a6eec0c8754b6b1abad2064aa8d5e939e32c014a26"'})
+    Traceback (most recent call last):
+      File "/home/python/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1443, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/python/Desktop/myhome/utils/common.py", line 13, in wrapper
+        fun(request_handler_obj, *args, **kwargs)
+      File "/home/python/Desktop/myhome/handlers/Profile.py", line 75, in get
+        'up_name'], "mobile": ret['up_mobile'], "avatar": ret['up_avatar']}})
+    NameError: global name 'data' is not defined
+[E 161126 17:29:19 web:1946] 500 GET /api/profile (127.0.0.1) 251.33ms
+[I 161126 17:30:27 autoreload:204] /home/python/Desktop/myhome/handlers/Profile.py modified; restarting server
+[I 161126 17:30:32 web:1946] 304 GET /my.html (127.0.0.1) 4.84ms
+[I 161126 17:30:32 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.24ms
+[I 161126 17:30:33 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.98ms
+[I 161126 17:30:33 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 0.71ms
+[I 161126 17:30:33 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.76ms
+[I 161126 17:30:33 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.73ms
+[I 161126 17:30:33 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 0.64ms
+[I 161126 17:30:33 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.03ms
+[I 161126 17:30:33 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.31ms
+[I 161126 17:30:33 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.78ms
+[I 161126 17:30:33 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.82ms
+[I 161126 17:30:33 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 0.72ms
+[I 161126 17:30:34 web:1946] 200 GET /api/profile (127.0.0.1) 28.24ms
+[W 161126 17:30:35 web:1946] 404 GET /FmT-Qpi7yYr_2GHYOnS6n4r5h8jY (127.0.0.1) 25.80ms
+[I 161126 17:31:06 autoreload:204] /home/python/Desktop/myhome/handlers/Profile.py modified; restarting server
+[I 161126 17:31:08 web:1946] 304 GET /my.html (127.0.0.1) 14.56ms
+[I 161126 17:31:09 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.04ms
+[I 161126 17:31:09 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.65ms
+[I 161126 17:31:09 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.13ms
+[I 161126 17:31:09 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.96ms
+[I 161126 17:31:09 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 2.60ms
+[I 161126 17:31:09 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 2.61ms
+[I 161126 17:31:09 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.94ms
+[I 161126 17:31:09 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.95ms
+[I 161126 17:31:09 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.64ms
+[I 161126 17:31:09 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.76ms
+[I 161126 17:31:09 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 0.86ms
+[I 161126 17:31:10 web:1946] 200 GET /api/profile (127.0.0.1) 31.73ms
+[I 161126 17:36:40 web:1946] 304 GET /my.html (127.0.0.1) 1.63ms
+[I 161126 17:36:40 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 3.20ms
+[I 161126 17:36:40 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.16ms
+[I 161126 17:36:40 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 1.31ms
+[I 161126 17:36:40 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.76ms
+[I 161126 17:36:40 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.82ms
+[I 161126 17:36:40 web:1946] 304 GET /static/css/ihome/my.css (127.0.0.1) 1.85ms
+[I 161126 17:36:40 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.27ms
+[I 161126 17:36:40 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.28ms
+[I 161126 17:36:40 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.17ms
+[I 161126 17:36:40 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.19ms
+[I 161126 17:36:40 web:1946] 200 GET /static/js/ihome/my.js (127.0.0.1) 0.83ms
+[I 161126 17:36:42 web:1946] 304 GET /api/profile (127.0.0.1) 3.80ms
+[I 161126 17:38:06 web:1946] 304 GET /profile.html (127.0.0.1) 1.91ms
+[I 161126 17:38:06 web:1946] 304 GET /static/js/ihome/profile.js (127.0.0.1) 1.44ms
+[D 161126 17:38:33 retry:164] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None)
+[I 161126 17:38:33 connectionpool:213] Starting new HTTP connection (1): up.qiniu.com
+[D 161126 17:38:38 connectionpool:395] "POST / HTTP/1.1" 200 76
+[I 161126 17:38:38 web:1946] 200 POST /api/profile/avatar (127.0.0.1) 5093.03ms
+[I 161126 17:38:50 web:1946] 200 POST /api/profile/username (127.0.0.1) 180.19ms
+[I 161126 17:38:50 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 0.77ms
+[I 161126 17:38:55 web:1946] 200 GET /api/profile (127.0.0.1) 1.57ms
+[I 161126 17:39:34 web:1946] 200 GET /orders.html (127.0.0.1) 33.04ms
+[I 161126 17:39:35 web:1946] 200 GET /static/css/ihome/orders.css (127.0.0.1) 12.36ms
+[I 161126 17:39:35 web:1946] 200 GET /static/js/ihome/orders.js (127.0.0.1) 6.00ms
+[I 161126 17:39:39 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 0.79ms
+[I 161126 17:39:41 web:1946] 304 GET /api/profile (127.0.0.1) 2.97ms
+[I 161126 17:39:42 web:1946] 200 GET /myhouse.html (127.0.0.1) 45.38ms
+[I 161126 17:39:43 web:1946] 200 GET /static/css/ihome/myhouse.css (127.0.0.1) 57.85ms
+[I 161126 17:39:43 web:1946] 200 GET /static/js/ihome/myhouse.js (127.0.0.1) 17.03ms
+[I 161126 17:40:00 web:1946] 304 GET /api/profile (127.0.0.1) 3.95ms
+[I 161126 17:40:05 web:1946] 200 GET /lorders.html (127.0.0.1) 48.51ms
+[W 161126 17:40:05 web:1946] 404 GET /%7B%7Border.img_url%7D%7D (127.0.0.1) 2.08ms
+[I 161126 17:40:05 web:1946] 200 GET /static/js/ihome/lorders.js (127.0.0.1) 20.69ms
+[I 161126 17:40:16 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 0.64ms
+[I 161126 17:40:17 web:1946] 304 GET /api/profile (127.0.0.1) 1.34ms
+[I 161126 17:40:22 web:1946] 200 GET /auth.html (127.0.0.1) 80.07ms
+[I 161126 17:40:22 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 19.56ms
+[I 161126 17:40:26 web:1946] 304 GET /api/profile (127.0.0.1) 1.43ms
+[I 161126 18:39:54 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 1.65ms
+[I 161126 18:39:55 web:1946] 304 GET /api/profile (127.0.0.1) 8.90ms
+[I 161126 18:39:59 web:1946] 200 GET /api/logout (127.0.0.1) 38.76ms
+[I 161126 18:39:59 web:1946] 304 GET /static/js/ihome/index.js (127.0.0.1) 9.86ms
+[I 161126 18:40:01 web:1946] 200 GET /api/check_login (127.0.0.1) 1.36ms
+[W 161126 18:40:01 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 3.20ms
+[I 161126 18:40:08 web:1946] 304 GET /static/js/ihome/login.js (127.0.0.1) 13.25ms
+[I 161126 18:40:31 web:1946] 200 POST /api/login (127.0.0.1) 37.55ms
+[I 161126 18:40:33 web:1946] 200 GET /api/check_login (127.0.0.1) 1.69ms
+[W 161126 18:40:33 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.76ms
+[I 161126 18:40:37 web:1946] 304 GET /api/profile (127.0.0.1) 1.99ms
+[I 161126 19:37:29 web:1946] 304 GET /auth.html (127.0.0.1) 44.73ms
+[I 161126 19:37:30 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 149.31ms
+[I 161126 19:41:04 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 18.27ms
+[I 161126 19:41:06 web:1946] 304 GET /api/profile (127.0.0.1) 868.80ms
+[I 161126 19:41:26 web:1946] 304 GET /api/profile (127.0.0.1) 1.94ms
+[I 161126 19:41:29 web:1946] 304 GET /api/check_login (127.0.0.1) 5.43ms
+[W 161126 19:41:31 web:1946] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 19.77ms
+[I 161126 19:41:50 web:1946] 304 GET /api/profile (127.0.0.1) 2.75ms
+[I 161126 19:53:39 autoreload:204] /home/python/Desktop/myhome/handlers/Profile.py modified; restarting server
+[I 161126 21:46:35 autoreload:204] /home/python/Desktop/myhome/handlers/Profile.py modified; restarting server
+[I 161126 21:46:49 autoreload:204] /home/python/Desktop/myhome/handlers/Profile.py modified; restarting server
+[I 161126 21:47:34 web:1946] 304 GET /static/js/ihome/my.js (127.0.0.1) 698.81ms
+[I 161126 21:47:36 web:1946] 304 GET /api/profile (127.0.0.1) 1280.19ms
+[I 161126 21:47:40 web:1946] 304 GET /auth.html (127.0.0.1) 33.06ms
+[I 161126 21:47:40 web:1946] 200 GET /static/js/ihome/auth.js (127.0.0.1) 13.18ms
+[W 161126 21:47:41 web:1946] 404 GET /api/profile/auth (127.0.0.1) 60.94ms
+[I 161126 21:48:12 autoreload:204] /home/python/Desktop/myhome/urls.py modified; restarting server
+[I 161126 21:48:16 web:1946] 304 GET /auth.html (127.0.0.1) 5.15ms
+[I 161126 21:48:16 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 61.08ms
+[I 161126 21:48:16 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 13.82ms
+[I 161126 21:48:16 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 10.29ms
+[I 161126 21:48:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 18.50ms
+[I 161126 21:48:16 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 19.50ms
+[I 161126 21:48:16 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 23.14ms
+[I 161126 21:48:16 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 28.66ms
+[I 161126 21:48:16 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 0.55ms
+[I 161126 21:48:16 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 19.55ms
+[I 161126 21:48:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 63.78ms
+[I 161126 21:48:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 3.45ms
+[I 161126 21:48:16 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 3.28ms
+[E 161126 21:48:17 web:1524] Uncaught exception GET /api/profile/auth (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/profile/auth', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Host': '127.0.0.1:8000', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Cache-Control': 'max-age=0', 'Referer': 'http://127.0.0.1:8000/auth.html', 'Cookie': 'csrftoken=mocuDfaXBgCa7OjYOmy05vhxn0E3FN8Q; _xsrf=2|628018de|c0ebab99a243f452a5c3fda7bf40507c|1480077117; session_id="2|1:0|10:1480156831|10:session_id|44:NjBhMzk3NzY1NGNjNDkzNWI5ZDQwYjJhOTJjNmZlMzA=|331e0e72a96d6ec0f57edcba7c13865ec351713bbcbeeb72469e454b8c491d2c"'})
+    Traceback (most recent call last):
+      File "/home/python/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1443, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/python/Desktop/myhome/utils/common.py", line 13, in wrapper
+        fun(request_handler_obj, *args, **kwargs)
+      File "/home/python/Desktop/myhome/handlers/Profile.py", line 89, in get
+        self.write(dict(errno=RET.OK, errmsg='OK', data=dict(real_name=ret['real_name'], id_card=ret['id_card'])))
+    KeyError: 'real_name'
+[E 161126 21:48:17 web:1946] 500 GET /api/profile/auth (127.0.0.1) 4.73ms
+[I 161126 21:50:25 web:1946] 304 GET /api/profile (127.0.0.1) 3.27ms
+[E 161126 21:50:28 web:1524] Uncaught exception GET /api/profile/auth (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/profile/auth', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'X-Requested-With': 'XMLHttpRequest', 'Host': '127.0.0.1:8000', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/auth.html', 'Cookie': 'csrftoken=mocuDfaXBgCa7OjYOmy05vhxn0E3FN8Q; _xsrf=2|628018de|c0ebab99a243f452a5c3fda7bf40507c|1480077117; session_id="2|1:0|10:1480156831|10:session_id|44:NjBhMzk3NzY1NGNjNDkzNWI5ZDQwYjJhOTJjNmZlMzA=|331e0e72a96d6ec0f57edcba7c13865ec351713bbcbeeb72469e454b8c491d2c"'})
+    Traceback (most recent call last):
+      File "/home/python/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1443, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/python/Desktop/myhome/utils/common.py", line 13, in wrapper
+        fun(request_handler_obj, *args, **kwargs)
+      File "/home/python/Desktop/myhome/handlers/Profile.py", line 89, in get
+        self.write(dict(errno=RET.OK, errmsg='OK', data=dict(real_name=ret['real_name'], id_card=ret['id_card'])))
+    KeyError: 'real_name'
+[E 161126 21:50:28 web:1946] 500 GET /api/profile/auth (127.0.0.1) 3.72ms
+[I 161126 21:55:46 autoreload:204] /home/python/Desktop/myhome/handlers/Profile.py modified; restarting server
+[I 161126 21:55:48 web:1946] 304 GET /auth.html (127.0.0.1) 6.07ms
+[I 161126 21:55:48 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 21.68ms
+[I 161126 21:55:48 web:1946] 304 GET /static/css/reset.css (127.0.0.1) 12.65ms
+[I 161126 21:55:48 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 21.89ms
+[I 161126 21:55:48 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 48.20ms
+[I 161126 21:55:48 web:1946] 304 GET /static/css/ihome/main.css (127.0.0.1) 22.00ms
+[I 161126 21:55:48 web:1946] 304 GET /static/css/ihome/profile.css (127.0.0.1) 12.56ms
+[I 161126 21:55:48 web:1946] 304 GET /static/js/jquery.min.js (127.0.0.1) 15.19ms
+[I 161126 21:55:48 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 3.10ms
+[I 161126 21:55:48 web:1946] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 1.71ms
+[I 161126 21:55:48 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 21.89ms
+[I 161126 21:55:48 web:1946] 304 GET /static/js/ihome/auth.js (127.0.0.1) 1.58ms
+[I 161126 21:55:49 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 95.03ms
+[I 161126 21:55:49 web:1946] 200 GET /api/profile/auth (127.0.0.1) 38.06ms
+[W 161126 21:55:55 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161126 21:55:55 web:1946] 403 POST /auth.html (127.0.0.1) 2.09ms
+[W 161126 22:03:31 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161126 22:03:31 web:1946] 403 POST /auth.html (127.0.0.1) 1.87ms
+[W 161126 22:03:35 web:1521] 403 POST /auth.html (127.0.0.1): '_xsrf' argument missing from POST
+[W 161126 22:03:35 web:1946] 403 POST /auth.html (127.0.0.1) 3.66ms
+[I 161128 09:13:40 web:1946] 200 GET / (192.168.13.26) 83.12ms
+[I 161128 09:13:40 web:1946] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 6.19ms
+[I 161128 09:13:40 web:1946] 200 GET /static/css/reset.css (192.168.13.26) 1.62ms
+[I 161128 09:13:40 web:1946] 200 GET /static/plugins/swiper/css/swiper.min.css (192.168.13.26) 1.46ms
+[I 161128 09:13:40 web:1946] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 1.83ms
+[I 161128 09:13:40 web:1946] 200 GET /static/css/ihome/main.css (192.168.13.26) 1.61ms
+[I 161128 09:13:40 web:1946] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 78.61ms
+[I 161128 09:13:40 web:1946] 200 GET /static/css/ihome/index.css (192.168.13.26) 6.83ms
+[I 161128 09:13:40 web:1946] 200 GET /static/js/jquery.min.js (192.168.13.26) 2.62ms
+[I 161128 09:13:40 web:1946] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 5.55ms
+[I 161128 09:13:40 web:1946] 200 GET /static/plugins/swiper/js/swiper.jquery.min.js (192.168.13.26) 5.94ms
+[I 161128 09:13:40 web:1946] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 2.66ms
+[I 161128 09:13:40 web:1946] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 6.91ms
+[I 161128 09:13:40 web:1946] 200 GET /static/js/template.js (192.168.13.26) 4.35ms
+[I 161128 09:13:40 web:1946] 200 GET /static/js/ihome/index.js (192.168.13.26) 7.51ms
+[I 161128 09:13:40 web:1946] 200 GET /static/images/logo@128x59.png (192.168.13.26) 3.67ms
+[I 161128 09:13:40 web:1946] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (192.168.13.26) 2.98ms
+[I 161128 09:13:40 web:1946] 200 GET /static/images/home01.jpg (192.168.13.26) 87.13ms
+[I 161128 09:13:40 web:1946] 200 GET /static/images/home03.jpg (192.168.13.26) 53.99ms
+[I 161128 09:13:40 web:1946] 200 GET /static/images/home02.jpg (192.168.13.26) 172.04ms
+[I 161128 09:13:41 web:1946] 200 GET /api/check_login (192.168.13.26) 2.72ms
+[I 161128 09:13:41 web:1946] 200 GET /favicon.ico (192.168.13.26) 12.29ms
+[I 161128 09:13:45 web:1946] 200 GET /register.html (192.168.13.26) 6.18ms
+[I 161128 09:13:45 web:1946] 200 GET /static/js/ihome/register.js (192.168.13.26) 6.03ms
+[I 161128 09:13:45 web:1946] 200 GET /static/css/ihome/register.css (192.168.13.26) 3.40ms
+[I 161128 09:13:45 web:1946] 200 GET /api/imagecode?pcodeid=&codeid=46331d43-3099-4e7a-94b2-6228a574b7ba (192.168.13.26) 355.75ms
+[I 161128 09:13:49 web:1946] 200 GET /login.html (192.168.13.26) 4.36ms
+[I 161128 09:13:49 web:1946] 200 GET /static/css/ihome/login.css (192.168.13.26) 4.17ms
+[I 161128 09:13:50 web:1946] 200 GET /static/js/ihome/login.js (192.168.13.26) 3.64ms
+[I 161128 09:14:07 web:1946] 200 POST /api/login (192.168.13.26) 145.88ms
+[I 161128 09:14:07 web:1946] 200 GET /api/check_login (192.168.13.26) 4.29ms
+[I 161128 09:14:18 web:1946] 200 GET /my.html (192.168.13.26) 5.79ms
+[I 161128 09:14:18 web:1946] 200 GET /static/css/ihome/my.css (192.168.13.26) 2.07ms
+[I 161128 09:14:18 web:1946] 200 GET /static/js/ihome/my.js (192.168.13.26) 3.53ms
+[I 161128 09:14:18 web:1946] 200 GET /api/profile (192.168.13.26) 6.56ms
+[I 161128 09:14:22 web:1946] 200 GET /orders.html (192.168.13.26) 5.12ms
+[I 161128 09:14:22 web:1946] 200 GET /static/js/ihome/orders.js (192.168.13.26) 10.80ms
+[I 161128 09:14:22 web:1946] 200 GET /static/css/ihome/orders.css (192.168.13.26) 8.01ms
+[I 161128 09:14:24 web:1946] 304 GET /api/profile (192.168.13.26) 12.30ms
+[I 161128 09:14:25 web:1946] 200 GET /auth.html (192.168.13.26) 7.17ms
+[I 161128 09:14:26 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 5.61ms
+[I 161128 09:14:26 web:1946] 200 GET /static/js/jquery.form.min.js (192.168.13.26) 19.16ms
+[I 161128 09:14:26 web:1946] 200 GET /static/css/ihome/profile.css (192.168.13.26) 6.17ms
+[I 161128 09:14:26 web:1946] 200 GET /api/profile/auth (192.168.13.26) 4.83ms
+[I 161128 09:14:32 web:1946] 304 GET /api/profile (192.168.13.26) 10.26ms
+[I 161128 09:17:19 web:1946] 304 GET /api/profile/auth (192.168.13.26) 8.91ms
+[I 161128 09:17:20 web:1946] 304 GET /api/profile (192.168.13.26) 7.72ms
+[I 161128 09:29:34 web:1946] 304 GET /my.html (192.168.13.26) 8.61ms
+[I 161128 09:29:34 web:1946] 304 GET /api/profile (192.168.13.26) 5.52ms
+[I 161128 09:29:34 web:1946] 200 GET /favicon.ico (192.168.13.26) 1.98ms
+[I 161128 09:29:36 web:1946] 304 GET /api/check_login (192.168.13.26) 4.11ms
+[I 161128 09:30:39 web:1946] 304 GET /api/profile (192.168.13.26) 6.99ms
+[I 161128 09:30:42 web:1946] 304 GET /api/profile/auth (192.168.13.26) 6.70ms
+[I 161128 09:30:43 web:1946] 304 GET /api/profile (192.168.13.26) 6.80ms
+[I 161128 09:30:45 web:1946] 304 GET /api/profile/auth (192.168.13.26) 8.00ms
+[W 161128 09:31:51 web:1521] 403 POST /auth.html (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 09:31:51 web:1946] 403 POST /auth.html (192.168.13.26) 35.94ms
+[I 161128 09:43:20 web:1946] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (192.168.13.26) 236.38ms
+[W 161128 09:43:43 web:1521] 403 POST /auth.html (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 09:43:43 web:1946] 403 POST /auth.html (192.168.13.26) 6.35ms
+[I 161128 09:46:39 web:1946] 304 GET /api/profile/auth (192.168.13.26) 128.48ms
+[W 161128 09:46:41 web:1521] 403 POST /auth.html (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 09:46:41 web:1946] 403 POST /auth.html (192.168.13.26) 6.50ms
+[W 161128 09:59:37 web:1521] 403 POST /auth.html (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 09:59:37 web:1946] 403 POST /auth.html (192.168.13.26) 26.97ms
+[W 161128 10:00:28 web:1521] 403 POST /auth.html (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:00:28 web:1946] 403 POST /auth.html (192.168.13.26) 6.03ms
+[I 161128 10:00:31 web:1946] 304 GET /auth.html (192.168.13.26) 3.94ms
+[I 161128 10:00:31 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 8.35ms
+[I 161128 10:00:31 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 3.47ms
+[I 161128 10:00:31 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 13.75ms
+[I 161128 10:00:31 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 5.61ms
+[I 161128 10:00:31 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 2.37ms
+[I 161128 10:00:31 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 7.70ms
+[I 161128 10:00:31 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 56.08ms
+[I 161128 10:00:31 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 1.90ms
+[I 161128 10:00:31 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 3.17ms
+[I 161128 10:00:31 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 3.28ms
+[I 161128 10:00:31 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 2.81ms
+[I 161128 10:00:31 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 2.05ms
+[I 161128 10:00:31 web:1946] 304 GET /api/profile/auth (192.168.13.26) 31.44ms
+[W 161128 10:00:33 web:1521] 403 POST /auth.html (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:00:33 web:1946] 403 POST /auth.html (192.168.13.26) 7.93ms
+[I 161128 10:01:08 web:1946] 200 GET /auth.html?a (192.168.13.26) 3.09ms
+[I 161128 10:01:09 web:1946] 304 GET /api/profile/auth (192.168.13.26) 5.38ms
+[W 161128 10:01:11 web:1521] 403 POST /auth.html?a (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:01:11 web:1946] 403 POST /auth.html?a (192.168.13.26) 7.20ms
+[I 161128 10:01:28 web:1946] 304 GET /auth.html?a (192.168.13.26) 5.74ms
+[I 161128 10:01:28 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 4.14ms
+[I 161128 10:01:28 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 28.94ms
+[I 161128 10:01:28 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 3.16ms
+[I 161128 10:01:28 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 2.86ms
+[I 161128 10:01:28 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 31.44ms
+[I 161128 10:01:28 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 5.49ms
+[I 161128 10:01:28 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 8.86ms
+[I 161128 10:01:29 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 20.91ms
+[I 161128 10:01:29 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 3.93ms
+[I 161128 10:01:29 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 3.99ms
+[I 161128 10:01:29 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 3.60ms
+[I 161128 10:01:29 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 5.17ms
+[I 161128 10:01:29 web:1946] 304 GET /api/profile/auth (192.168.13.26) 4.03ms
+[W 161128 10:01:30 web:1521] 403 POST /auth.html?a (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:01:30 web:1946] 403 POST /auth.html?a (192.168.13.26) 10.33ms
+[I 161128 10:05:21 web:1946] 304 GET /auth.html?a (192.168.13.26) 16.93ms
+[I 161128 10:05:21 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 5.54ms
+[I 161128 10:05:22 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 6.97ms
+[I 161128 10:05:22 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 11.55ms
+[I 161128 10:05:22 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 7.79ms
+[I 161128 10:05:22 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 9.61ms
+[I 161128 10:05:22 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 2.66ms
+[I 161128 10:05:22 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 2.71ms
+[I 161128 10:05:22 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 8.57ms
+[I 161128 10:05:22 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 2.51ms
+[I 161128 10:05:22 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 2.36ms
+[I 161128 10:05:22 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 2.54ms
+[I 161128 10:05:22 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 3.04ms
+[I 161128 10:05:22 web:1946] 304 GET /api/profile/auth (192.168.13.26) 17.68ms
+[W 161128 10:05:23 web:1521] 403 POST /auth.html?a (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:05:23 web:1946] 403 POST /auth.html?a (192.168.13.26) 9.02ms
+[I 161128 10:05:32 web:1946] 304 GET /api/profile (192.168.13.26) 5.38ms
+[I 161128 10:05:34 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 1.97ms
+[I 161128 10:05:34 web:1946] 304 GET /api/profile/auth (192.168.13.26) 4.95ms
+[I 161128 10:08:02 web:1946] 200 GET /auth.html?s (192.168.13.26) 12.26ms
+[I 161128 10:08:02 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 21.03ms
+[I 161128 10:08:02 web:1946] 304 GET /api/profile/auth (192.168.13.26) 5.67ms
+[W 161128 10:08:04 web:1521] 403 POST /auth.html?s (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:08:04 web:1946] 403 POST /auth.html?s (192.168.13.26) 3.79ms
+[W 161128 10:08:49 web:1521] 403 POST /auth.html?s (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:08:49 web:1946] 403 POST /auth.html?s (192.168.13.26) 4.48ms
+[W 161128 10:09:45 web:1521] 403 POST /auth.html?s (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:09:45 web:1946] 403 POST /auth.html?s (192.168.13.26) 4.63ms
+[I 161128 10:09:59 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 20.35ms
+[I 161128 10:09:59 web:1946] 304 GET /api/profile/auth (192.168.13.26) 12.90ms
+[W 161128 10:10:01 web:1521] 403 POST /auth.html?a (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:10:01 web:1946] 403 POST /auth.html?a (192.168.13.26) 2.95ms
+[I 161128 10:15:27 web:1946] 304 GET /auth.html?a (192.168.13.26) 15.73ms
+[I 161128 10:15:27 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 6.86ms
+[I 161128 10:15:27 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 2.26ms
+[I 161128 10:15:27 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 11.41ms
+[I 161128 10:15:27 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 14.58ms
+[I 161128 10:15:27 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 5.99ms
+[I 161128 10:15:27 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 3.28ms
+[I 161128 10:15:27 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 4.61ms
+[I 161128 10:15:27 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 4.09ms
+[I 161128 10:15:27 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 2.55ms
+[I 161128 10:15:27 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 2.54ms
+[I 161128 10:15:27 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 5.58ms
+[I 161128 10:15:27 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 3.62ms
+[I 161128 10:15:27 web:1946] 304 GET /api/profile/auth (192.168.13.26) 31.29ms
+[W 161128 10:15:33 web:1521] 403 POST /auth.html?a (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:15:33 web:1946] 403 POST /auth.html?a (192.168.13.26) 3.57ms
+[I 161128 10:15:51 web:1946] 304 GET /auth.html?a (192.168.13.26) 14.38ms
+[I 161128 10:15:51 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 2.60ms
+[I 161128 10:15:51 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 3.82ms
+[I 161128 10:15:51 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 2.39ms
+[I 161128 10:15:51 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 14.42ms
+[I 161128 10:15:51 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 2.86ms
+[I 161128 10:15:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 2.75ms
+[I 161128 10:15:51 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 2.64ms
+[I 161128 10:15:51 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 4.60ms
+[I 161128 10:15:51 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 3.24ms
+[I 161128 10:15:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 2.89ms
+[I 161128 10:15:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 3.38ms
+[I 161128 10:15:51 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 17.25ms
+[I 161128 10:15:51 web:1946] 304 GET /api/profile/auth (192.168.13.26) 12.87ms
+[W 161128 10:15:52 web:1521] 403 POST /auth.html?a (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:15:52 web:1946] 403 POST /auth.html?a (192.168.13.26) 3.93ms
+[W 161128 10:16:03 web:1521] 403 POST /auth.html?a (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:16:03 web:1946] 403 POST /auth.html?a (192.168.13.26) 8.52ms
+[I 161128 10:17:05 web:1946] 304 GET /auth.html?a (192.168.13.26) 8.21ms
+[I 161128 10:17:05 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 4.01ms
+[I 161128 10:17:05 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 4.41ms
+[I 161128 10:17:05 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 2.13ms
+[I 161128 10:17:05 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 8.08ms
+[I 161128 10:17:05 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 2.41ms
+[I 161128 10:17:05 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 4.24ms
+[I 161128 10:17:05 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 8.48ms
+[I 161128 10:17:05 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 4.13ms
+[I 161128 10:17:05 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 3.49ms
+[I 161128 10:17:05 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 4.86ms
+[I 161128 10:17:05 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 11.09ms
+[I 161128 10:17:05 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 3.60ms
+[I 161128 10:17:06 web:1946] 304 GET /api/profile/auth (192.168.13.26) 9.53ms
+[W 161128 10:17:13 web:1521] 403 POST /auth.html?a (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:17:13 web:1946] 403 POST /auth.html?a (192.168.13.26) 4.48ms
+[I 161128 10:18:16 web:1946] 304 GET /auth.html?a (192.168.13.26) 68.47ms
+[I 161128 10:18:16 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 15.23ms
+[I 161128 10:18:16 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 17.37ms
+[I 161128 10:18:16 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 9.96ms
+[I 161128 10:18:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 5.43ms
+[I 161128 10:18:16 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 4.44ms
+[I 161128 10:18:16 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 4.76ms
+[I 161128 10:18:16 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 10.05ms
+[I 161128 10:18:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 12.15ms
+[I 161128 10:18:16 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 1.99ms
+[I 161128 10:18:16 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 13.55ms
+[I 161128 10:18:16 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 88.98ms
+[I 161128 10:18:16 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 2.85ms
+[I 161128 10:18:16 web:1946] 304 GET /api/profile/auth (192.168.13.26) 15.86ms
+[I 161128 10:18:58 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 4.96ms
+[I 161128 10:18:58 web:1946] 304 GET /api/profile/auth (192.168.13.26) 3.65ms
+[I 161128 10:19:03 web:1946] 304 GET /auth.html (192.168.13.26) 131.94ms
+[I 161128 10:19:03 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 2.43ms
+[I 161128 10:19:03 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 1.94ms
+[I 161128 10:19:03 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 17.51ms
+[I 161128 10:19:03 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 2.83ms
+[I 161128 10:19:03 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 66.34ms
+[I 161128 10:19:03 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 8.32ms
+[I 161128 10:19:03 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 3.90ms
+[I 161128 10:19:03 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 2.35ms
+[I 161128 10:19:03 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 2.35ms
+[I 161128 10:19:03 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 3.22ms
+[I 161128 10:19:03 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 3.64ms
+[I 161128 10:19:03 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 2.48ms
+[I 161128 10:19:04 web:1946] 304 GET /api/profile/auth (192.168.13.26) 8.08ms
+[W 161128 10:19:09 web:1521] 403 POST /auth.html (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:19:09 web:1946] 403 POST /auth.html (192.168.13.26) 136.74ms
+[I 161128 10:19:51 web:1946] 304 GET /auth.html (192.168.13.26) 20.45ms
+[I 161128 10:19:51 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 13.56ms
+[I 161128 10:19:51 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 29.73ms
+[I 161128 10:19:51 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 27.91ms
+[I 161128 10:19:51 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 6.53ms
+[I 161128 10:19:51 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 12.08ms
+[I 161128 10:19:52 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 6.54ms
+[I 161128 10:19:52 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 2.65ms
+[I 161128 10:19:52 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 1.99ms
+[I 161128 10:19:52 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 2.15ms
+[I 161128 10:19:52 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 5.81ms
+[I 161128 10:19:52 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 5.96ms
+[I 161128 10:19:52 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 37.87ms
+[I 161128 10:19:52 web:1946] 304 GET /api/profile/auth (192.168.13.26) 26.36ms
+[W 161128 10:19:58 web:1521] 403 POST /auth.html (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:19:58 web:1946] 403 POST /auth.html (192.168.13.26) 4.12ms
+[I 161128 10:21:32 web:1946] 304 GET /auth.html (192.168.13.26) 6.26ms
+[I 161128 10:21:32 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 8.51ms
+[I 161128 10:21:32 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 7.03ms
+[I 161128 10:21:32 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 9.46ms
+[I 161128 10:21:32 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 21.53ms
+[I 161128 10:21:32 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 7.11ms
+[I 161128 10:21:32 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 12.58ms
+[I 161128 10:21:32 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 47.13ms
+[I 161128 10:21:32 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 18.86ms
+[I 161128 10:21:32 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 16.59ms
+[I 161128 10:21:32 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 3.61ms
+[I 161128 10:21:32 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 16.23ms
+[I 161128 10:21:32 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 12.13ms
+[I 161128 10:21:32 web:1946] 304 GET /api/profile/auth (192.168.13.26) 9.05ms
+[E 161128 10:21:40 Profile:101] not enough arguments for format string
+[I 161128 10:21:40 web:1946] 200 POST /api/profile/auth (192.168.13.26) 9.49ms
+[E 161128 10:21:46 Profile:101] not enough arguments for format string
+[I 161128 10:21:46 web:1946] 200 POST /api/profile/auth (192.168.13.26) 39.99ms
+[I 161128 10:24:44 web:1946] 304 GET /auth.html (192.168.13.26) 13.27ms
+[I 161128 10:24:45 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 41.41ms
+[I 161128 10:24:45 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 5.04ms
+[I 161128 10:24:45 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 3.60ms
+[I 161128 10:24:45 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 3.00ms
+[I 161128 10:24:45 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 2.78ms
+[I 161128 10:24:45 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 67.17ms
+[I 161128 10:24:45 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 23.24ms
+[I 161128 10:24:45 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 17.84ms
+[I 161128 10:24:45 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 13.95ms
+[I 161128 10:24:45 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 3.45ms
+[I 161128 10:24:45 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 4.09ms
+[I 161128 10:24:45 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 2.92ms
+[W 161128 10:24:51 web:1521] 403 POST /auth.html (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:24:51 web:1946] 403 POST /auth.html (192.168.13.26) 3.73ms
+[I 161128 10:25:32 web:1946] 304 GET /auth.html (192.168.13.26) 4.03ms
+[I 161128 10:25:32 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 23.07ms
+[I 161128 10:25:32 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 21.20ms
+[I 161128 10:25:32 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 10.30ms
+[I 161128 10:25:32 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 56.98ms
+[I 161128 10:25:32 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 8.97ms
+[I 161128 10:25:32 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 29.88ms
+[I 161128 10:25:32 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 32.98ms
+[I 161128 10:25:32 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 2.61ms
+[I 161128 10:25:32 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 3.03ms
+[I 161128 10:25:32 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 2.44ms
+[I 161128 10:25:32 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 2.25ms
+[I 161128 10:25:32 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 5.62ms
+[I 161128 10:25:32 web:1946] 200 GET /api/profile/auth (192.168.13.26) 10.13ms
+[W 161128 10:25:38 web:1521] 403 POST /auth.html (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:25:38 web:1946] 403 POST /auth.html (192.168.13.26) 3.61ms
+[I 161128 10:27:35 web:1946] 304 GET /auth.html (192.168.13.26) 14.96ms
+[I 161128 10:27:35 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 16.64ms
+[I 161128 10:27:35 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 3.71ms
+[I 161128 10:27:35 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 3.41ms
+[I 161128 10:27:35 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 3.91ms
+[I 161128 10:27:35 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 3.20ms
+[I 161128 10:27:35 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 7.50ms
+[I 161128 10:27:35 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 11.07ms
+[I 161128 10:27:35 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 3.64ms
+[I 161128 10:27:35 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 4.19ms
+[I 161128 10:27:35 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 4.99ms
+[I 161128 10:27:35 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 2.87ms
+[I 161128 10:27:35 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 131.40ms
+[I 161128 10:27:35 web:1946] 304 GET /api/profile/auth (192.168.13.26) 33.30ms
+[W 161128 10:27:38 web:1521] 403 POST /auth.html (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:27:38 web:1946] 403 POST /auth.html (192.168.13.26) 30.81ms
+[I 161128 10:28:21 web:1946] 304 GET /auth.html (192.168.13.26) 32.87ms
+[I 161128 10:28:21 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 17.45ms
+[I 161128 10:28:21 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 13.47ms
+[I 161128 10:28:21 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 7.52ms
+[I 161128 10:28:21 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 13.83ms
+[I 161128 10:28:21 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 6.99ms
+[I 161128 10:28:21 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 44.54ms
+[I 161128 10:28:22 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 3.33ms
+[I 161128 10:28:22 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 41.76ms
+[I 161128 10:28:22 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 16.14ms
+[I 161128 10:28:22 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 11.89ms
+[I 161128 10:28:22 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 8.78ms
+[I 161128 10:28:22 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 16.82ms
+[I 161128 10:28:22 web:1946] 304 GET /api/profile/auth (192.168.13.26) 9.22ms
+[W 161128 10:28:23 web:1521] 403 POST /auth.html (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:28:23 web:1946] 403 POST /auth.html (192.168.13.26) 7.70ms
+[I 161128 10:29:41 web:1946] 304 GET /auth.html (192.168.13.26) 33.05ms
+[I 161128 10:29:41 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 4.55ms
+[I 161128 10:29:41 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 2.32ms
+[I 161128 10:29:41 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 9.13ms
+[I 161128 10:29:41 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 2.74ms
+[I 161128 10:29:42 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 3.52ms
+[I 161128 10:29:42 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 4.21ms
+[I 161128 10:29:42 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 15.39ms
+[I 161128 10:29:42 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 3.44ms
+[I 161128 10:29:42 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 7.63ms
+[I 161128 10:29:42 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 59.85ms
+[I 161128 10:29:42 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 8.03ms
+[I 161128 10:29:42 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 7.95ms
+[I 161128 10:29:42 web:1946] 304 GET /api/profile/auth (192.168.13.26) 8.78ms
+[I 161128 10:29:56 web:1946] 200 GET /auth.html? (192.168.13.26) 5.22ms
+[I 161128 10:29:57 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 11.16ms
+[I 161128 10:29:57 web:1946] 304 GET /api/profile/auth (192.168.13.26) 21.83ms
+[W 161128 10:30:08 web:1521] 403 POST /auth.html? (192.168.13.26): '_xsrf' argument missing from POST
+[W 161128 10:30:08 web:1946] 403 POST /auth.html? (192.168.13.26) 31.92ms
+[I 161128 10:31:01 web:1946] 304 GET /auth.html? (192.168.13.26) 3.61ms
+[I 161128 10:31:01 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 7.00ms
+[I 161128 10:31:01 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 3.48ms
+[I 161128 10:31:01 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 6.60ms
+[I 161128 10:31:01 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 2.79ms
+[I 161128 10:31:01 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 2.25ms
+[I 161128 10:31:01 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 3.50ms
+[I 161128 10:31:01 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 3.94ms
+[I 161128 10:31:01 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 10.98ms
+[I 161128 10:31:02 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 9.23ms
+[I 161128 10:31:02 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 8.82ms
+[I 161128 10:31:02 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 19.57ms
+[I 161128 10:31:02 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 5.83ms
+[I 161128 10:31:02 web:1946] 304 GET /api/profile/auth (192.168.13.26) 14.57ms
+[I 161128 10:31:07 web:1946] 200 POST /api/profile/auth (192.168.13.26) 16.98ms
+[E 161128 10:31:14 Profile:101] not enough arguments for format string
+[I 161128 10:31:14 web:1946] 200 POST /api/profile/auth (192.168.13.26) 4.05ms
+[E 161128 10:33:18 Profile:101] not enough arguments for format string
+[I 161128 10:33:18 web:1946] 200 POST /api/profile/auth (192.168.13.26) 24.56ms
+[I 161128 10:33:23 web:1946] 304 GET /auth.html? (192.168.13.26) 46.65ms
+[I 161128 10:33:23 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 4.48ms
+[I 161128 10:33:23 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 2.21ms
+[I 161128 10:33:23 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 2.36ms
+[I 161128 10:33:23 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 2.87ms
+[I 161128 10:33:23 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 3.75ms
+[I 161128 10:33:23 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 5.48ms
+[I 161128 10:33:23 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 10.72ms
+[I 161128 10:33:23 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 6.15ms
+[I 161128 10:33:23 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 5.13ms
+[I 161128 10:33:23 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 9.92ms
+[I 161128 10:33:23 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 7.61ms
+[I 161128 10:33:23 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 3.78ms
+[I 161128 10:33:23 web:1946] 200 GET /api/profile/auth (192.168.13.26) 10.51ms
+[E 161128 10:33:32 Profile:101] not enough arguments for format string
+[I 161128 10:33:32 web:1946] 200 POST /api/profile/auth (192.168.13.26) 44.75ms
+[I 161128 10:35:48 autoreload:204] /home/python/Desktop/myhome/handlers/Profile.py modified; restarting server
+[I 161128 10:36:30 web:1946] 304 GET /auth.html? (192.168.13.26) 18.02ms
+[I 161128 10:36:30 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 27.25ms
+[I 161128 10:36:30 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 1.82ms
+[I 161128 10:36:30 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 1.71ms
+[I 161128 10:36:30 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 2.75ms
+[I 161128 10:36:30 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 1.83ms
+[I 161128 10:36:30 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 2.86ms
+[I 161128 10:36:30 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 12.90ms
+[I 161128 10:36:30 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 18.11ms
+[I 161128 10:36:30 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 6.68ms
+[I 161128 10:36:30 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 5.42ms
+[I 161128 10:36:30 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 3.16ms
+[I 161128 10:36:31 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 3.16ms
+[I 161128 10:36:31 web:1946] 200 GET /api/profile/auth (192.168.13.26) 12.08ms
+[E 161128 10:38:46 Profile:101] not enough arguments for format string
+[I 161128 10:38:46 web:1946] 200 POST /api/profile/auth (192.168.13.26) 13.10ms
+[I 161128 10:40:29 autoreload:204] /home/python/Desktop/myhome/handlers/Profile.py modified; restarting server
+[I 161128 10:40:44 web:1946] 200 POST /api/profile/auth (192.168.13.26) 419.16ms
+[I 161128 10:41:37 web:1946] 304 GET /api/profile (192.168.13.26) 13.91ms
+[I 161128 10:41:39 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 39.82ms
+[I 161128 10:41:39 web:1946] 200 GET /api/profile/auth (192.168.13.26) 6.30ms
+[I 161128 10:42:04 web:1946] 304 GET /auth.html (192.168.13.26) 13.22ms
+[I 161128 10:42:04 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 6.78ms
+[I 161128 10:42:04 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 2.93ms
+[I 161128 10:42:04 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 2.54ms
+[I 161128 10:42:04 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 5.96ms
+[I 161128 10:42:04 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 18.37ms
+[I 161128 10:42:04 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 2.66ms
+[I 161128 10:42:04 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 2.87ms
+[I 161128 10:42:04 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 2.95ms
+[I 161128 10:42:04 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 4.79ms
+[I 161128 10:42:04 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 2.96ms
+[I 161128 10:42:05 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 6.81ms
+[I 161128 10:42:05 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 8.68ms
+[I 161128 10:42:05 web:1946] 304 GET /api/profile/auth (192.168.13.26) 23.15ms
+[I 161128 10:42:15 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 5.84ms
+[I 161128 10:42:15 web:1946] 304 GET /api/profile/auth (192.168.13.26) 11.40ms
+[I 161128 10:44:29 web:1946] 304 GET /auth.html?a (192.168.13.26) 16.53ms
+[I 161128 10:44:29 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 4.70ms
+[I 161128 10:44:29 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 3.98ms
+[I 161128 10:44:29 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 3.88ms
+[I 161128 10:44:29 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 3.02ms
+[I 161128 10:44:29 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 2.46ms
+[I 161128 10:44:29 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 3.47ms
+[I 161128 10:44:29 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 5.93ms
+[I 161128 10:44:29 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 4.19ms
+[I 161128 10:44:29 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 4.96ms
+[I 161128 10:44:29 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 2.19ms
+[I 161128 10:44:29 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 2.83ms
+[I 161128 10:44:29 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 6.37ms
+[I 161128 10:44:29 web:1946] 304 GET /api/profile/auth (192.168.13.26) 47.64ms
+[I 161128 10:44:35 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 26.02ms
+[I 161128 10:44:35 web:1946] 304 GET /api/profile/auth (192.168.13.26) 27.70ms
+[I 161128 10:45:33 web:1946] 304 GET /auth.html (192.168.13.26) 10.79ms
+[I 161128 10:45:33 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 4.83ms
+[I 161128 10:45:33 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 24.45ms
+[I 161128 10:45:33 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 7.83ms
+[I 161128 10:45:33 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 10.35ms
+[I 161128 10:45:33 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 3.82ms
+[I 161128 10:45:33 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 6.49ms
+[I 161128 10:45:33 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 36.64ms
+[I 161128 10:45:33 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 9.28ms
+[I 161128 10:45:33 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 4.58ms
+[I 161128 10:45:33 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 9.80ms
+[I 161128 10:45:33 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 3.97ms
+[I 161128 10:45:34 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 7.73ms
+[I 161128 10:45:34 web:1946] 304 GET /api/profile/auth (192.168.13.26) 8.01ms
+[I 161128 10:45:40 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 6.07ms
+[I 161128 10:45:40 web:1946] 304 GET /api/profile/auth (192.168.13.26) 9.77ms
+[I 161128 10:45:46 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 2.36ms
+[I 161128 10:45:46 web:1946] 304 GET /api/profile/auth (192.168.13.26) 10.49ms
+[I 161128 10:47:28 web:1946] 304 GET /my.html (192.168.13.26) 10.19ms
+[I 161128 10:47:28 web:1946] 304 GET /static/css/ihome/my.css (192.168.13.26) 9.17ms
+[I 161128 10:47:28 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 32.40ms
+[I 161128 10:47:28 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 10.03ms
+[I 161128 10:47:28 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 6.02ms
+[I 161128 10:47:28 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 12.67ms
+[I 161128 10:47:28 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 4.27ms
+[I 161128 10:47:28 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 2.41ms
+[I 161128 10:47:28 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 2.02ms
+[I 161128 10:47:28 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 1.92ms
+[I 161128 10:47:28 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 2.51ms
+[I 161128 10:47:28 web:1946] 304 GET /static/js/ihome/my.js (192.168.13.26) 4.19ms
+[I 161128 10:47:29 web:1946] 304 GET /api/profile (192.168.13.26) 24.61ms
+[I 161128 10:47:30 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 4.64ms
+[I 161128 10:47:31 web:1946] 304 GET /api/profile/auth (192.168.13.26) 13.57ms
+[I 161128 10:48:00 web:1946] 304 GET /auth.html (192.168.13.26) 161.95ms
+[I 161128 10:48:00 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 2.64ms
+[I 161128 10:48:00 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 6.43ms
+[I 161128 10:48:00 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 4.40ms
+[I 161128 10:48:00 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 4.27ms
+[I 161128 10:48:00 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 4.74ms
+[I 161128 10:48:00 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 5.82ms
+[I 161128 10:48:00 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 7.15ms
+[I 161128 10:48:00 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 3.34ms
+[I 161128 10:48:00 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 3.38ms
+[I 161128 10:48:00 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 6.82ms
+[I 161128 10:48:00 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 4.24ms
+[I 161128 10:48:00 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 7.37ms
+[I 161128 10:48:05 web:1946] 200 POST /api/profile/auth (192.168.13.26) 3.33ms
+[I 161128 10:48:14 web:1946] 200 POST /api/profile/auth (192.168.13.26) 45.04ms
+[I 161128 10:49:48 web:1946] 304 GET /api/profile (192.168.13.26) 13.93ms
+[I 161128 10:49:52 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 12.03ms
+[I 161128 10:49:53 web:1946] 200 GET /api/profile/auth (192.168.13.26) 11.85ms
+[I 161128 10:49:58 web:1946] 304 GET /api/profile (192.168.13.26) 5.41ms
+[I 161128 10:50:12 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 2.45ms
+[I 161128 10:50:12 web:1946] 304 GET /api/profile/auth (192.168.13.26) 11.47ms
+[I 161128 10:51:38 web:1946] 304 GET /api/profile (192.168.13.26) 34.63ms
+[I 161128 10:51:40 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 3.47ms
+[I 161128 10:51:40 web:1946] 200 GET /api/profile/auth (192.168.13.26) 25.62ms
+[I 161128 10:51:43 web:1946] 200 POST /api/profile/auth (192.168.13.26) 4.92ms
+[I 161128 10:51:54 web:1946] 200 POST /api/profile/auth (192.168.13.26) 32.00ms
+[I 161128 10:52:44 web:1946] 200 POST /api/profile/auth (192.168.13.26) 49.46ms
+[I 161128 10:52:48 web:1946] 304 GET /auth.html (192.168.13.26) 5.96ms
+[I 161128 10:52:48 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 4.05ms
+[I 161128 10:52:48 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 64.18ms
+[I 161128 10:52:48 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 3.53ms
+[I 161128 10:52:48 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 6.33ms
+[I 161128 10:52:48 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 3.52ms
+[I 161128 10:52:48 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 27.60ms
+[I 161128 10:52:48 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 3.20ms
+[I 161128 10:52:49 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 3.15ms
+[I 161128 10:52:49 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 4.23ms
+[I 161128 10:52:49 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 10.06ms
+[I 161128 10:52:49 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 4.30ms
+[I 161128 10:52:49 web:1946] 200 GET /static/js/ihome/auth.js (192.168.13.26) 7.60ms
+[I 161128 10:52:49 web:1946] 200 GET /api/profile/auth (192.168.13.26) 4.22ms
+[I 161128 10:53:05 web:1946] 304 GET /auth.html (192.168.13.26) 5.80ms
+[I 161128 10:53:05 web:1946] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (192.168.13.26) 3.53ms
+[I 161128 10:53:05 web:1946] 304 GET /static/css/ihome/profile.css (192.168.13.26) 2.29ms
+[I 161128 10:53:05 web:1946] 304 GET /static/css/ihome/main.css (192.168.13.26) 1.97ms
+[I 161128 10:53:05 web:1946] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (192.168.13.26) 7.79ms
+[I 161128 10:53:05 web:1946] 304 GET /static/css/reset.css (192.168.13.26) 1.96ms
+[I 161128 10:53:05 web:1946] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (192.168.13.26) 2.70ms
+[I 161128 10:53:05 web:1946] 304 GET /static/js/jquery.min.js (192.168.13.26) 3.99ms
+[I 161128 10:53:05 web:1946] 304 GET /static/js/jquery.form.min.js (192.168.13.26) 3.23ms
+[I 161128 10:53:05 web:1946] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (192.168.13.26) 3.90ms
+[I 161128 10:53:05 web:1946] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (192.168.13.26) 4.76ms
+[I 161128 10:53:06 web:1946] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (192.168.13.26) 4.72ms
+[I 161128 10:53:06 web:1946] 304 GET /static/js/ihome/auth.js (192.168.13.26) 33.79ms
+[I 161128 10:53:06 web:1946] 200 GET /api/profile/auth (192.168.13.26) 5.93ms
+[I 161128 10:53:13 web:1946] 200 POST /api/profile/auth (192.168.13.26) 126.27ms
+[I 161128 10:53:17 web:1946] 304 GET /api/profile (192.168.13.26) 16.93ms
